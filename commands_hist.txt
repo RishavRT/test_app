@@ -1,0 +1,67 @@
+    1  ls
+    2  pwd
+    3  mkdir test_app
+    4  ls
+    5  cs test_app
+    6  cd tst_app
+    7  cd test_app
+    8  cd ..
+    9  pwd
+   10  ls
+   11  cd 'Puri Docs'
+   12  cd ..
+   13  cd test_app
+   14  mkdir f1
+   15  mkdir f2 f3 f4 f5
+   16  rmdir f5
+   17  rmdir f4 f3 f2
+   18  rmdir f1
+   19  rm -r f1
+   20  ls
+   21  touch f1.txt
+   22  ls
+   23  touch f2.py f3.sql f4.py
+   24  ls
+   25  cat f1.txt
+   26  nano f1.txt
+   27  nano f1
+   28  cat f1
+   29  nano f1.txt
+   30  cat f1.txt
+   31  cd test_app
+   32  ls
+   33  pwd
+   34  git init
+   35  ls -a
+   36  git config -- list
+   37  git config --list
+   38  git config --global user.name 'RishavRT'
+   39  git config --global user.email 'rishavraman97@gmail.com'
+   40  git config --list
+   41  git remote -v
+   42  git remote add origin master https://github.com/RishavRT/test_app.git
+   43  git remote add origin https://github.com/RishavRT/test_app.git
+   44  gi remote -v
+   45  git remote -v
+   46  ls
+   47  git status
+   48  git add f1.txt
+   49  git status
+   50  git rm --cached f1.txt
+   51  git status
+   52  git add f1.txt f2.py
+   53  git status
+   54  git rm --cached f1.txt f2.py
+   55  git status
+   56  git add .
+   57  git status
+   58  git status
+   59  git commit -m 'First Commit'
+   60  gti status
+   61  git status
+   62  git branch -m master to main
+   63  git branch -m master main
+   64  git push -f origin main
+   65  git branch --set-upstream-to=origin/main
+   66  git pull
+   67  history > commands_hist.txt
